@@ -1,0 +1,36 @@
+a. Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 811 bytes | 811.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/KrtauschBoss/Assignment1.git
+   3d373c9..db68bec  master -> master
+
+b. 5. git log
+
+c. Thu Jan 10 16:45:38 2019 -0500. git status .gitignore
+
+d. Branching allows you to work on features simultaneously and you can fully test changes
+before updating the master branch
+
+e. git log shows the history of commits to the project while git status shows the status of the directory/staging area
+
+f. git log Weapon.h
+
+g. git log --grep='file'
+
+h.  I) Basic form of class can be define and compiled and then more specific classes can inherit properties from them
+   II) Having different defintions of a function among inherited classes
+  III) Hiding private date behind functions used to acess/manipulate that data
+
+i. In Dictator and Lieutenants workflow, each developer pushes changes to an assigned 
+Lieutenant repository who handle the merging of those delvelopers. The Lieutenants then push 
+to the Dictator. While in Integration Management, the developers push changes to their own
+public repository. A single integration manager who pulls from the developers public 
+repository and solves all merging conflicts before pushing it to the blessed repository.
+
+j. Having multiple Lieutenants handle smaller merge conflicts would be less difficult than
+having one Integration Manger trying to merge and solve all conflicts between 100 employee
+commits.
