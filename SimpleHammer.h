@@ -6,7 +6,7 @@
 #define SIMPLEHAMMER_H
 
 //Defines behavior of SimpleHammer(ignores armor if less than 30)
-class CommonSpear : public Weapon 
+class SimpleHammer : public Weapon 
 {
 public:
 
