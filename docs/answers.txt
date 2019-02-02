@@ -34,3 +34,8 @@ repository and solves all merging conflicts before pushing it to the blessed rep
 j. Having multiple Lieutenants handle smaller merge conflicts would be less difficult than
 having one Integration Manger trying to merge and solve all conflicts between 100 employee
 commits.
+
+5. It is using polymorphism, each class contains the hit function but defines its own
+implementation of the function. It is also using encapsulation, the Weapon class contains
+a getName function that returns the protected date name. The no parameters hit function also
+returns the protected date hitPoints.
