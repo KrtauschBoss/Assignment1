@@ -37,6 +37,7 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
     }
 
     if (name.compare("Crazy random sword") == 0){
+	// psuedo RNG from Bob Myers notes
 	srand(time(0));
 	return new CrazyRandomSword(rand() % 94 + 7.0);
     }
