@@ -13,6 +13,7 @@ class BattleAxe : public Weapon
 
 	virtual ~BattleAxe() {}
 
+	//ignores 1/4 of armor points
 	virtual double hit(double armor);
 };
 
